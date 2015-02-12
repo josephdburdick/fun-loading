@@ -1,0 +1,33 @@
+/*
+ * Typography
+*/
+
+.opensans-light{
+	font-family: 'Open Sans', 'helvetica neue', helvetica, sans-serif;
+	font-weight: 300;
+}
+.opensans-normal{
+	font-family: 'Open Sans', 'helvetica neue', helvetica, sans-serif;
+	font-weight: 400;
+}
+.opensans-semibold{
+	font-family: 'Open Sans', 'helvetica neue', helvetica, sans-serif;
+	font-weight: 600;
+}
+.page-title{
+	@extend .opensans-light;
+	font-size: 20px;
+	text-align: center;
+}
+p{
+	@extend .opensans-normal;
+	font-size: 10px;
+		
+}
+.subsection-title{
+	text-transform: uppercase;
+	color: $lightblue;
+	@extend .opensans-semibold;
+	font-size: 11px;
+	letter-spacing: .15rem;
+}

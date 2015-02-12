@@ -1,0 +1,17 @@
+/*
+ * Form
+*/
+
+label{
+	display: block;
+}
+
+.progress{
+	height: 10px;
+	.progress-bar{
+		transition: width 2s ease-in-out;
+	}
+}
+
+
+
